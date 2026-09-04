@@ -6,6 +6,8 @@ A team-built differential-drive robot integrating line tracking, forward-obstacl
 
 This repository documents **Tinhinene Boumerdassi's embedded-development contribution**: sensor integration, discrete PD steering, motor-control logic, behavior arbitration, obstacle-scanning sequences, and firmware consolidation.
 
+[Download the one-page engineering portfolio case study](docs/portfolio/project-portfolio.pdf)
+
 ## Project at a glance
 
 | Area | Implemented system |
@@ -70,8 +72,10 @@ The pin map reflects the consolidated firmware in this repository. Confirm every
 └── docs/
     ├── architecture.svg
     ├── hardware-and-calibration.md
-    └── images/
-        └── robot-prototype.jpg
+    ├── images/
+    │   └── robot-prototype.jpg
+    └── portfolio/
+        └── project-portfolio.pdf
 ```
 
 ## Build and upload
