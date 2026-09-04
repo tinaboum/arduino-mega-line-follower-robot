@@ -1,0 +1,19 @@
+# Arduino build products
+build/
+*.elf
+*.hex
+*.eep
+*.map
+
+# PlatformIO, if used locally
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
