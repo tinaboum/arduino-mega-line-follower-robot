@@ -1,6 +1,6 @@
 # Arduino Mega Line-Follower and Obstacle-Avoidance Robot
 
-![Physical Arduino Mega robot during integration and testing](docs/images/robot-prototype.png)
+![Physical Arduino Mega robot during integration and testing](docs/images/robot-prototype.jpg)
 
 A team-built differential-drive robot integrating line tracking, forward-obstacle detection, bypass-direction selection, line reacquisition, and colored checkpoint handling on an Arduino Mega 2560.
 
@@ -71,7 +71,7 @@ The pin map reflects the consolidated firmware in this repository. Confirm every
     ├── architecture.svg
     ├── hardware-and-calibration.md
     └── images/
-        └── robot-prototype.png
+        └── robot-prototype.jpg
 ```
 
 ## Build and upload
