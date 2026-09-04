@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="300" viewBox="0 0 2048 300">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#C64372"/>
+    </marker>
+    <marker id="feedback" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#237C86"/>
+    </marker>
+  </defs>
+
+  <rect width="2048" height="300" rx="22" fill="#F8FAFB"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g>
+      <rect x="30" y="24" width="350" height="190" rx="18" fill="#FFFFFF" stroke="#D0D8E2" stroke-width="3"/>
+      <rect x="430" y="24" width="340" height="190" rx="18" fill="#FCF1F5" stroke="#C64372" stroke-width="2"/>
+      <rect x="820" y="24" width="350" height="190" rx="18" fill="#FFFFFF" stroke="#D0D8E2" stroke-width="3"/>
+      <rect x="1220" y="24" width="330" height="190" rx="18" fill="#FFFFFF" stroke="#D0D8E2" stroke-width="3"/>
+      <rect x="1600" y="24" width="418" height="190" rx="18" fill="#FFFFFF" stroke="#D0D8E2" stroke-width="3"/>
+    </g>
+
+    <g fill="#C64372" font-size="19" font-weight="700" letter-spacing="1.4">
+      <text x="58" y="58">SENSOR LAYER</text>
+      <text x="458" y="58">CONTROL CORE</text>
+      <text x="848" y="58">BEHAVIOR LOGIC</text>
+      <text x="1248" y="58">MOTOR DRIVE</text>
+      <text x="1628" y="58">MOBILE PLATFORM</text>
+    </g>
+
+    <g fill="#132238" font-size="23" font-weight="700">
+      <text x="58" y="94">5-channel IR array</text>
+      <text x="58" y="132">HC-SR04 + servo</text>
+      <text x="58" y="170">TCS34725 color sensor</text>
+
+      <text x="458" y="98">Arduino Mega</text>
+      <text x="458" y="138">Sensor acquisition</text>
+      <text x="458" y="176">PD steering calculation</text>
+
+      <text x="848" y="94">1. Avoid obstacle</text>
+      <text x="848" y="132">2. Handle checkpoint</text>
+      <text x="848" y="170">3. Follow / recover line</text>
+
+      <text x="1248" y="106">L298N dual H-bridge</text>
+      <text x="1248" y="150">PWM speed + direction</text>
+
+      <text x="1628" y="104">Left and right DC motors</text>
+      <text x="1628" y="148">Differential-drive chassis</text>
+      <text x="1628" y="185">Timed bypass manoeuvre</text>
+    </g>
+
+    <g fill="none" stroke="#C64372" stroke-width="4" marker-end="url(#arrow)">
+      <path d="M380 121 H424"/>
+      <path d="M770 121 H814"/>
+      <path d="M1170 121 H1214"/>
+      <path d="M1550 121 H1594"/>
+    </g>
+
+    <path d="M1810 220 V260 H205 V220" fill="none" stroke="#237C86" stroke-width="3" stroke-dasharray="10 8" marker-end="url(#feedback)"/>
+    <rect x="878" y="240" width="330" height="38" rx="19" fill="#EAF4F5"/>
+    <text x="1043" y="266" text-anchor="middle" fill="#237C86" font-size="18" font-weight="700">PHYSICAL TRACK FEEDBACK</text>
+  </g>
+</svg>
